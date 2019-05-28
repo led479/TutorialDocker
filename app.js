@@ -1,4 +1,17 @@
 const express = require('express')
+// const mysql = require('mysql')
+// const con = mysql.createConnection({
+//   host: "localhost",
+//   port: 8001,
+//   user: "root",
+//   password: "complexpassword",
+//   database: 'Customers'
+// })
+
+// con.connect(function(err) {
+//   if (err) throw err;
+//   console.log("Connected!")
+// })
 
 const app = express()
 
